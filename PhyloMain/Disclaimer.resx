@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>PhyloMain v6 is a non-commercial shell to start all kinds of phylogenetic software, that is freely distributed on the internet.
+
+
+Muscle
+Edgar, R.C. (2004) MUSCLE: multiple sequence alignment with high accuracy and high throughput.
+  Nucleic Acids Res. 32(5):1792-1797 [http://www.ncbi.nlm.nih.gov/pubmed/15034147].
+
+MAFFT
+Katoh K, Standley D.M. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol. 2013 Apr;30(4):772-80. doi: 10.1093/molbev/mst010. Epub 2013 Jan 16 [https://www.ncbi.nlm.nih.gov/pubmed/23329690#].
+
+ClustalW
+ Madeira F, Park YM, Lee J, et al. The EMBL-EBI search and sequence analysis tools APIs in 2019. Nucleic Acids Research. 2019 Jul;47(W1):W636-W641. DOI: 10.1093/nar/gkz268 [http://europepmc.org/abstract/MED/30976793].
+
+IQ-tree
+L.-T. Nguyen, H.A. Schmidt, A. von Haeseler, B.Q. Minh (2015) IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies. Mol. Biol. Evol., 32:268-274. [https://doi.org/10.1093/molbev/msu300].
+
+RaxML
+Stamatakis, A. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 2014 May 1; 30(9): 1312–1313 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3998144/#].
+
+MrBayes
+Huelsenbeck, J.P., and F. Ronquist. 2001. MRBAYES: Bayesian inference of phylogeny. Bioinformatics 17:754-755.
+Ronquist, F., and J.P. Huelsenbeck. 2003. MRBAYES 3: Bayesian phylogenetic inference under mixed models. Bioinformatics 19:1572-1574.
+Ronquist, F., M. Teslenko, P. van der Mark, D.L. Ayres, A. Darling, S. Höhna, B. Larget, L. Liu, M.A. Suchard, and J.P. Huelsenbeck. 2012. MRBAYES 3.2: Efficient Bayesian phylogenetic inference and model selection across a large model space. Syst. Biol. 61:539-542.
+
+FastTree
+Price M.N., Dehal P.S., Arkin A.P. (2009) FastTree: computing large minimum evolution trees with profiles instead of a distance matrix. Mol Biol Evol. 2009 Jul;26(7):1641-50. doi: 10.1093/molbev/msp077. Epub 2009 Apr 17 [https://www.ncbi.nlm.nih.gov/pubmed/19377059#].
+
+FigTree
+License: GPL
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. 
+
+Sequence Matrix
+Vaidya G, Lohman D.J., Meier R. (2011) SequenceMatrix: concatenation software for the fast assembly of multi‐gene datasets with character set and codon information. Cladistics 2011; 27(2):171-180 [https://doi.org/10.1111/j.1096-0031.2010.00329.x].
+
+MatGAT
+Campanella J.J., Bitincka L., Smalley J. (2003) MatGAT: An application that generates similarity/identity matrices using protein or DNA sequences. BMC Bioinformatics. 2003; 4: 29 [https://dx.doi.org/10.1186%2F1471-2105-4-29].
+
+SATé
+Liu, K., T.J. Warnow, M.T. Holder, S. Nelesen, J. Yu, A. Stamatakis, and C.R. Linder (2012) SATé-II: Very Fast and Accurate Simultaneous Estimation of Multiple Sequence Alignments and Phylogenetic Trees. Systematic Biology. 61(1):90-106 [https://doi.org/10.1093/sysbio/syr095].
+
+GBlocks
+Talavera, G., and Castresana, J. (2007). Improvement of phylogenies after removing divergent and ambiguously aligned blocks from protein sequence alignments. Systematic Biology 56, 564-577 [https://doi.org/10.1080/10635150701472164].</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAE
+        AAASCwAAEgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAA
+        ADMAAAAzAAAAMwAAADMAAAAzAAAAM7uHRwC7h0cAu4dHALuHSAC7h0sAu4caALuHHgC7hx8Au4ceAKp5
+        F8C2fg7/tHsJ/7R6B/+0ewj/tXsI/7R7CP+7h0cAu4dHALuHRwC7h0cAu4dKALuHGQC7hx0Au4cfALqF
+        HAC2fg7/////////////////////////////////u4dHALuHRwC7h0cAu4dHALuHSQC7h00Au4ccALuH
+        HwC6hRsAtHsJ//////////////////////+fn6D//////7uHRwC7h0cAAAAAIwAAADO7h0gAu4dMALuH
+        GwC7hx4AuoUbALR7Cf/////////9////+v//////oqCc/////v+7h0cAu4dHAKt7QMG5hUX/AAAAM7uH
+        SwC7hxoAAAAAIwAAADO1fQz//////////////////////6Sjnv////3/AAAAIwAAADO4g0P/9cV6/7aC
+        Q/8AAAAzu4YYAKl6F723gRP/tHwL/7F3AP+wdAD/rIg6/6amo/+opp7/pKKa/6t6P7+4gkH/tH49/+Wy
+        Zf/ntGf/toJD/wAAADO3gRD/+uzY//DXsf/w1rD/+OjS/7J2AP//////paGa////8v+5hEL/9N67//Ha
+        tf/nxZL/2KJS/+3Lmv+4g0b/tn8M//jo0f/it3f/4rd3//bmzv+xdQD////7/6OelP///er/uoVF7riC
+        QP+0fTr/7ti3/+zTr/+2gUH/uYRJALeBEP/669f/9+bP//bmzf/46NH/snYA////9v+loJP///7n/7uH
+        RwC6hUUAuIJA/+zXt/+2gD7/uYRHALuGGAC5hRmtt4AS/7R8Cv+xdgD/sHUA/6yFN/+moJX/qKCR/6Wc
+        jP+7h0cAu4dHALqFRbG5hEL/uoVFALuHSgC7hxoAu4cdALmFGgC1fQz////////64v//+uD///3g/6Wd
+        if//+93/u4dHALuHRwC7h0cAu4dGALuHRwC7h0wAu4cbALuHHgC6hRsAtHsJ////////8M////DQ///1
+        1P+hloL///TU/7uHRwC7h0cAu4dHALuHRwC7h0kAu4dNALuHHAC7hx8AuoUbALR7Cf///////+/N///v
+        zv//89L/npN+///z0v+7h0cAu4dHALuHRwC7h0cAu4dKALuHGQC7hx0Au4cfALqFHAC2fg7/////////
+        ////////////////////////u4dHALuHRwC7h0cAu4dIALuHSwC7hxoAu4ceALuHHwC7hx4AuYQZ77Z+
+        Dv+0ewn/tHsI/7R7Cf+1ewn/tHsJ//+AAAD/gAAA/4AAAP+AAADPgAAAxgAAAAIAAAAAAAAAAAAAAAIA
+        AADGAAAAz4AAAP+AAAD/gAAA/4AAAP+AAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAASCwAAEgsAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABAAAAA0AAAAVAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAA
+        ABYAAAAWAAAAEQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAANAAAAKwAAAD8AAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAA
+        AEMAAABDAAAAQwAAAEMAAAAyAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWmdxbEtn4O/7R7Cf+0egf/tHoH/7R6B/+0egf/tHoH/7R6
+        CP+1ewj/tHoI/7R6B/+0egf/tHoH/7R6B/8AAAAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFrZ+Dv//////////////////////////////
+        /////////////////////////////////////////////wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWtHsJ////////////////////
+        ////////////////////////n6Ch////////////////////////////AAAAFgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa0egf/////////
+        /v///vv///77///++////vv////8//////+hoKD//////////P///vv///77///++/8AAAAWAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFrR6
+        B//////////8///9+f///fn///35///9+f///vr//////6Khnv////////76///9+f///fn///35/wAA
+        ABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAWtHoH//////////v///34///9+P///fj///34///++f//////oqGd/////////vn///34///9
+        +P///fj/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAABa0ewj//////////P////v////7////+/////v////9//////+lo5//////////
+        /f////v////7////+/8AAAAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFrR7CP//////np2Y/6Cfmf+hn5n/oZ+Z/6Gfmf+hoJr/pKOd/6im
+        oP+ko53/oaCa/6Gfmf+hn5n/oZ+Z/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWtHsI//////////f////2////9v////b////2////
+        9/////v/pKOd////+/////f////2////9v////b/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa0egj////////78f//+u////rv///6
+        7///+u////vw////9f+hn5j////1///78P//+u////rv///67/8AAAAWAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFrR6CP////////nu//74
+        7P/++Oz//vjs//747P//+e3////y/6Gdlv////L///nt//747P/++Oz//vjs/wAAABYAAAAAAAAAAAAA
+        AAAAAAAAAAAABAAAAA0AAAAPAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWtHoI////
+        ////+Or//vfp//736f/+9+n//vfp///46v///u//oZyU///+7///+Or//vfp//736f/+9+n/AAAAFgAA
+        AAAAAAAAAAAAAAAAAAAAAAANAAAAKwoHBDYAAAAcAAAABgAAAAAAAAAAAAAABAAAAA0AAAAVAAAAFgAA
+        ACe0ewn////////66///+er///nq///56f//+en///np////7v+hnZP////u///56f//+Oj///jo///4
+        6P8AAAAWAAAABAAAAA0AAAAVAAAAFgAAACWmdz/FuIRF/wAAAD0AAAAcAAAABgAAAAAAAAANAAAAKwAA
+        AD8AAABDAAAASLV9DP/////////4////9/////b////z///+7v///u3////w/6Sglf////D///7s///8
+        6////Ov///zr/wAAABYAAAANAAAAKwAAAD8AAABDAAAASLeDRP/6y4D/toFC/wAAAD0AAAAcAAAABgAA
+        ABWmdxfEt4EU/7Z/EP+1fg//tHsJ/7B2AP+vcwD/r3MA/7B0AP+shjn/oqCZ/6Kdkf+kn5P/qKKW/6Sf
+        k/+hnJD/oZuQ/6GbkP+hm5D/AAAAFgAAABWndz/EuIRE/7eDRP+2gkP/tH9B/+69c//vv3T/toFD/wAA
+        AD0AAAAcAAAAHLeBE//669f/9N/D//Tfwv/z38H/897A//Pev//z3r//+OfQ/7F1AP////X///3p////
+        6/+knpH////r///85///+ub///rm///65v8AAAAWAAAAFriERP/sv3z/57Vp/+e1av/ltGn/5LJo/+Sy
+        aP/otWr/toJD/wAAADcAAAAntn8P//fmz//s0KX/7M+k/+zQpf/s0KX/7M+k/+zQpP/25Mv/r3QA///+
+        8P//9+P///rl/6Gbjf//+uX///Xg///03///9N////Tf/wAAABYAAAAWt4JC/+jBiP/cqFv/3Kld/9yp
+        Xf/cqV3/3Kld/92pXP/qxIv/uINH/wAAACe2fw//9ubP/+jFkf/oxpL/6MaT/+jGk//oxpL/6MWR//Xk
+        y/+ucwD///3t///24P//+eL/oZuM///54v//9N3//vPc//7z3P/+89z/AAAAFgAAABW3gUH/6Mqa/9Od
+        Tv/TnlD/059R/9WfUv/VoFP/1p9R/+rNn/+4g0f/AAAAHLZ/D//359D/5byB/+W9g//lvYT/5b2E/+W9
+        g//lvIH/9uXN/65zAP///Ov///Xe///44P+hmor///jg//7z2//98tr//fLa//3y2v8AAAAWAAAADbiC
+        Qf/t1bH/69Ou/+vTrv/q0q7/37uI/8yVQ//t1bP/toFA/wAAAAYAAAAVtn8P//fo0f/fsW3/37Jv/+Cz
+        cP/gs3D/37Jv/9+xbf/25s7/r3QA///86P//9dz///jd/6KZif//+N3///PZ//7y2P/+8tj//vLY/wAA
+        ABYAAAAEtoJDtLiCQf+3gT//toA+/7V9Ov/q1bT/69e3/7aAPv8AAAAGAAAAAAAAAA23gRP/+uvY//fo
+        0f/359H/9+fQ//bmz//25s7/9ubO//jo0v+ydgD///7p///53v//+9//pZ2L///73///99v///bb///2
+        2///9tv/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAANuIJA/+nUtf+2gD3/AAAABgAAAAAAAAAAAAAABLWC
+        GbS3gRT/tn8Q/7V+D/+0ewn/sHYA/690AP+vdAD/sHUA/6yFNv+inI7/opmI/6Wbif+on4v/pZuJ/6KY
+        hv+hmIX/oZiF/6GYhf8AAAAWAAAAAAAAAAAAAAAAAAAAAAAAAAS2gkO1uYRC/wAAAAYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAFrV9DP////////nh///44f//+OH///je///32f//99j///rb/6Wc
+        iP//+tv///bX///11///9df///XX/wAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWtHsJ////////8ND//u/R//7w0f/+8NH//u/Q///w
+        0f//9dX/opeD///11f//8NH//u/Q//7v0P/+79D/AAAAFgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABa0egj///////7uzf/97s7//e7P//3u
+        z//97s///u/Q///01f+hl4P///TV//7v0P/97s///e7P//3uz/8AAAAWAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFrR6CP///////u7N//3t
+        zf/97s7//e7O//3uzv/+78////TU/6CWgv//9NT//u/P//3uzv/97s7//e7O/wAAABYAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVtHsJ////
+        ////783//u7N//7uzf/+7s3//u7N///vzv//89L/npR////z0v//787//u7N//7uzf/+7s3/AAAAFgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AA22fg7/////////////////////////////////////////////////////////////////////////
+        //8AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABLWBGLS2fg7/tHsJ/7R6CP+0egj/tHoI/7R6CP+0ewj/tHsJ/7V7Cf+0ewn/tHsI/7R6
+        CP+0egj/tHoI/wAAAAb///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP/+AAD//gAA//4AAP/+AAD//gAA//4AAP/+AAD//gAA//4AAP/+
+        AAD//gAA//4AAP/+AADw/gAA8GAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA8GAAAPD+
+        AAD//gAA//4AAP/+AAD//gAA//4AAP/+AAD/////
+</value>
+  </data>
+</root>
